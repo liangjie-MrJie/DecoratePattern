@@ -13,6 +13,12 @@
 		DCE1F2C91E10E88500F53F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1F2C71E10E88500F53F13 /* Main.storyboard */; };
 		DCE1F2CB1E10E88500F53F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE1F2CA1E10E88500F53F13 /* Assets.xcassets */; };
 		DCE1F2CE1E10E88500F53F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1F2CC1E10E88500F53F13 /* LaunchScreen.storyboard */; };
+		DCE1F2E11E10EC0000F53F13 /* AttackSpeedShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F2E01E10EC0000F53F13 /* AttackSpeedShoes.m */; };
+		DCE1F2E41E10ECBE00F53F13 /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F2E31E10ECBE00F53F13 /* Shoes.m */; };
+		DCE1F2EA1E10EDE000F53F13 /* AttackSpeedSword.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F2E91E10EDE000F53F13 /* AttackSpeedSword.m */; };
+		DCE1F2ED1E10F7C200F53F13 /* DeckerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F2EC1E10F7C200F53F13 /* DeckerBase.m */; };
+		DCE1F2F91E113A2900F53F13 /* AnyEquip.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F2F81E113A2900F53F13 /* AnyEquip.m */; };
+		DCE1F2FC1E113B1000F53F13 /* QuickShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE1F2FB1E113B1000F53F13 /* QuickShoes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,19 @@
 		DCE1F2CA1E10E88500F53F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE1F2CD1E10E88500F53F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE1F2CF1E10E88500F53F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE1F2DE1E10EBC200F53F13 /* Equip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equip.h; sourceTree = "<group>"; };
+		DCE1F2DF1E10EC0000F53F13 /* AttackSpeedShoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackSpeedShoes.h; sourceTree = "<group>"; };
+		DCE1F2E01E10EC0000F53F13 /* AttackSpeedShoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackSpeedShoes.m; sourceTree = "<group>"; };
+		DCE1F2E21E10ECBE00F53F13 /* Shoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoes.h; sourceTree = "<group>"; };
+		DCE1F2E31E10ECBE00F53F13 /* Shoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shoes.m; sourceTree = "<group>"; };
+		DCE1F2E81E10EDE000F53F13 /* AttackSpeedSword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackSpeedSword.h; sourceTree = "<group>"; };
+		DCE1F2E91E10EDE000F53F13 /* AttackSpeedSword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackSpeedSword.m; sourceTree = "<group>"; };
+		DCE1F2EB1E10F7C200F53F13 /* DeckerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckerBase.h; sourceTree = "<group>"; };
+		DCE1F2EC1E10F7C200F53F13 /* DeckerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckerBase.m; sourceTree = "<group>"; };
+		DCE1F2F71E113A2900F53F13 /* AnyEquip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyEquip.h; sourceTree = "<group>"; };
+		DCE1F2F81E113A2900F53F13 /* AnyEquip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyEquip.m; sourceTree = "<group>"; };
+		DCE1F2FA1E113B1000F53F13 /* QuickShoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickShoes.h; sourceTree = "<group>"; };
+		DCE1F2FB1E113B1000F53F13 /* QuickShoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickShoes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +61,19 @@
 		DCE1F2B21E10E88500F53F13 = {
 			isa = PBXGroup;
 			children = (
+				DCE1F2E81E10EDE000F53F13 /* AttackSpeedSword.h */,
+				DCE1F2E91E10EDE000F53F13 /* AttackSpeedSword.m */,
+				DCE1F2E21E10ECBE00F53F13 /* Shoes.h */,
+				DCE1F2E31E10ECBE00F53F13 /* Shoes.m */,
+				DCE1F2FA1E113B1000F53F13 /* QuickShoes.h */,
+				DCE1F2FB1E113B1000F53F13 /* QuickShoes.m */,
+				DCE1F2DF1E10EC0000F53F13 /* AttackSpeedShoes.h */,
+				DCE1F2E01E10EC0000F53F13 /* AttackSpeedShoes.m */,
+				DCE1F2EB1E10F7C200F53F13 /* DeckerBase.h */,
+				DCE1F2EC1E10F7C200F53F13 /* DeckerBase.m */,
+				DCE1F2F71E113A2900F53F13 /* AnyEquip.h */,
+				DCE1F2F81E113A2900F53F13 /* AnyEquip.m */,
+				DCE1F2DE1E10EBC200F53F13 /* Equip.h */,
 				DCE1F2BD1E10E88500F53F13 /* Decker */,
 				DCE1F2BC1E10E88500F53F13 /* Products */,
 			);
@@ -151,8 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1F2ED1E10F7C200F53F13 /* DeckerBase.m in Sources */,
+				DCE1F2E41E10ECBE00F53F13 /* Shoes.m in Sources */,
+				DCE1F2FC1E113B1000F53F13 /* QuickShoes.m in Sources */,
+				DCE1F2EA1E10EDE000F53F13 /* AttackSpeedSword.m in Sources */,
 				DCE1F2C61E10E88500F53F13 /* ViewController.m in Sources */,
+				DCE1F2E11E10EC0000F53F13 /* AttackSpeedShoes.m in Sources */,
 				DCE1F2C31E10E88500F53F13 /* AppDelegate.m in Sources */,
+				DCE1F2F91E113A2900F53F13 /* AnyEquip.m in Sources */,
 				DCE1F2C01E10E88500F53F13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +313,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6DN7GZ678J;
 				INFOPLIST_FILE = Decker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangjie.Decker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6DN7GZ678J;
 				INFOPLIST_FILE = Decker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangjie.Decker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
