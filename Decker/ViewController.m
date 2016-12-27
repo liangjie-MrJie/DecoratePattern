@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 初始化攻速鞋
+    // 初始化一件装备
     id<Equip> oneEquip = [[AnyEquip alloc] init];
     NSLog(@"%@", [oneEquip debugDescription]);
     // 用移速鞋子来装饰（买了一双鞋子）
@@ -36,7 +36,7 @@
     oneEquip = [[AttackSpeedShoes alloc] initToDecorated:oneEquip];
     NSLog(@"%@", [oneEquip debugDescription]);
     
-    // 初始化3速鞋
+    // 初始化一件装备
     id<Equip> twoEquip = [[AnyEquip alloc] init];
     NSLog(@"%@", [twoEquip debugDescription]);
     twoEquip = [[Shoes alloc] initToDecorated:twoEquip];
